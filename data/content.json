@@ -2,9 +2,12 @@
   "nodes" : [
     {
       "chapter" : 1,
+      "clue" : "Rusty played a sealed \"gift deck\" — handed to him by a hooded official of the court.",
       "id" : "node-0",
       "intro" : "A tinker looks up from a half-built contraption. \"Oh! Here to duel? I'm Rusty — sort of the doorman. Beat me and I'll point you up the road.\" He grins and shuffles, dropping half his cards.",
+      "nodeKind" : "boss",
       "opponentID" : "rusty",
+      "provinceID" : "province-rustmarch",
       "rewardCardIDs" : [
         "disgorgon",
         "dragon"
@@ -14,9 +17,12 @@
     },
     {
       "chapter" : 2,
+      "clue" : "A half-burnt ledger in the parlor names a hidden patron bankrolling the rigged games.",
       "id" : "node-1",
       "intro" : "Rusty's directions lead to a smoky parlor. A gambler fans her cards without looking up. \"Rusty sent you? Cute. I'll wager you don't make it past the knight at the bridge.\"",
+      "nodeKind" : "boss",
       "opponentID" : "mireille",
+      "provinceID" : "province-gilded-delta",
       "rewardCardIDs" : [
         "adjudicator",
         "2-c-soldier-operator"
@@ -26,9 +32,12 @@
     },
     {
       "chapter" : 3,
+      "clue" : "Aldous swears the Empress died at the table — with a hexed card already in play.",
       "id" : "node-2",
       "intro" : "A bridge, and a knight in weathered armor. \"The gambler's coin says you'll fall here. Prove her right, or prove her wrong — but you do not cross without a duel.\"",
+      "nodeKind" : "boss",
       "opponentID" : "aldous",
+      "provinceID" : "province-ashen-keep",
       "rewardCardIDs" : [
         "panthera-protector",
         "ironclad"
@@ -38,9 +47,12 @@
     },
     {
       "chapter" : 4,
+      "clue" : "Vesper's hex-craft orders bear a wax seal: the mark of the Lord Regent.",
       "id" : "node-3",
       "intro" : "Beyond the bridge, a witch's parlor glitters with hexes. \"The knight let you pass? How careless of him. I serve the Grandmaster, and I do so love to make examples.\"",
+      "nodeKind" : "boss",
       "opponentID" : "vesper",
+      "provinceID" : "province-hexfen",
       "rewardCardIDs" : [
         "moss-grown-adamantoise",
         "cloud"
@@ -50,9 +62,12 @@
     },
     {
       "chapter" : 5,
+      "clue" : "Koll was never the master. The Regent — Corvane — steps from behind the throne he kept empty.",
       "id" : "node-4",
       "intro" : "At last, the throne room. The Grandmaster does not rise. \"Vesper's hexes failed. Curious. Sit. Let us see if you are the one the prophecies kept boring me with.\"",
+      "nodeKind" : "boss",
       "opponentID" : "koll",
+      "provinceID" : "province-obsidian-court",
       "rewardCardIDs" : [
         "barret",
         "aerith"
@@ -76,6 +91,7 @@
       "name" : "Rusty",
       "onLose" : "Aw, beans. Good game though — you've got a real knack for this!",
       "onWin" : "I won? I WON! Wait 'til the workshop hears about this!",
+      "packID" : "pack-rustmarch",
       "persona" : "a cheerful, clumsy novice tinkerer who plays it safe and roots for everyone",
       "portraitSymbol" : "wrench.and.screwdriver.fill",
       "taunt" : "Huh, that actually worked? Beginner's luck, I swear!",
@@ -99,6 +115,7 @@
       "name" : "Mireille",
       "onLose" : "Well played. I'll want a rematch — double or nothing.",
       "onWin" : "The house always wins. Better luck next hand.",
+      "packID" : "pack-gilded-delta",
       "persona" : "a smooth, confident card sharp who loves a risky, opportunistic play",
       "portraitSymbol" : "suit.club.fill",
       "taunt" : "Read 'em and weep, darling.",
@@ -122,6 +139,7 @@
       "name" : "Sir Aldous",
       "onLose" : "Bested, fair and square. Well met, champion.",
       "onWin" : "A hard-fought field. You have my respect.",
+      "packID" : "pack-ashen-keep",
       "persona" : "a stoic, honorable knight who fights a patient war of territory and walls",
       "portraitSymbol" : "shield.lefthalf.filled",
       "taunt" : "A line held is a battle half won.",
@@ -145,6 +163,7 @@
       "name" : "Vesper",
       "onLose" : "Impossible… my hexes, undone? You'll regret this.",
       "onWin" : "Did you really think you'd unravel me?",
+      "packID" : "pack-hexfen",
       "persona" : "a sly, theatrical witch who delights in buffs, hexes and aggressive swings",
       "portraitSymbol" : "sparkles",
       "taunt" : "Wither. Crumble. How delicious.",
@@ -168,6 +187,7 @@
       "name" : "Grandmaster Koll",
       "onLose" : "…So. The streak ends. You have earned your place.",
       "onWin" : "As expected. The throne remains mine.",
+      "packID" : "pack-obsidian-court",
       "persona" : "a calm, ruthless grandmaster who has not lost a duel in living memory",
       "portraitSymbol" : "crown.fill",
       "taunt" : "Every move you make, I made three turns ago.",
@@ -176,6 +196,143 @@
       "tintHex" : 13214247,
       "title" : "the Unbeaten",
       "voicePitch" : 0.8
+    }
+  ],
+  "packs" : [
+    {
+      "id" : "pack-rustmarch",
+      "name" : "The Rustmarch",
+      "opponentIDs" : [
+        "rusty"
+      ],
+      "provinceID" : "province-rustmarch",
+      "signatureCardIDs" : [
+
+      ],
+      "summary" : "Act I — the frontier where the Bloodright begins.",
+      "unlock" : {
+        "kind" : "story"
+      }
+    },
+    {
+      "id" : "pack-gilded-delta",
+      "name" : "The Gilded Delta",
+      "opponentIDs" : [
+        "mireille"
+      ],
+      "provinceID" : "province-gilded-delta",
+      "signatureCardIDs" : [
+
+      ],
+      "summary" : "Act II — gambling dens where the odds are rigged.",
+      "unlock" : {
+        "kind" : "story"
+      }
+    },
+    {
+      "id" : "pack-ashen-keep",
+      "name" : "The Ashen Keep",
+      "opponentIDs" : [
+        "aldous"
+      ],
+      "provinceID" : "province-ashen-keep",
+      "signatureCardIDs" : [
+
+      ],
+      "summary" : "Act III — the ruined fortress where the Empress fell.",
+      "unlock" : {
+        "kind" : "story"
+      }
+    },
+    {
+      "id" : "pack-hexfen",
+      "name" : "The Hexfen",
+      "opponentIDs" : [
+        "vesper"
+      ],
+      "provinceID" : "province-hexfen",
+      "signatureCardIDs" : [
+
+      ],
+      "summary" : "Act IV — the swamp where the hexed cards are wrought.",
+      "unlock" : {
+        "kind" : "story"
+      }
+    },
+    {
+      "id" : "pack-obsidian-court",
+      "name" : "The Obsidian Court",
+      "opponentIDs" : [
+        "koll"
+      ],
+      "provinceID" : "province-obsidian-court",
+      "signatureCardIDs" : [
+
+      ],
+      "summary" : "Act V — the capital, and the truth behind the throne.",
+      "unlock" : {
+        "kind" : "story"
+      }
+    },
+    {
+      "id" : "pack-wandering-legends",
+      "name" : "Wandering Legends",
+      "opponentIDs" : [
+
+      ],
+      "provinceID" : "province-wandering-legends",
+      "rarity" : "legendary",
+      "signatureCardIDs" : [
+
+      ],
+      "summary" : "Roaming legendary duelists — earn or unlock, then play anywhere.",
+      "unlock" : {
+        "kind" : "purchasable",
+        "sku" : "com.45bitstudios.empressblood.pack.legends"
+      }
+    }
+  ],
+  "provinces" : [
+    {
+      "act" : 1,
+      "bossOpponentID" : "rusty",
+      "id" : "province-rustmarch",
+      "name" : "The Rustmarch",
+      "theme" : "Frontier scrubland; warm brass, workshop airs."
+    },
+    {
+      "act" : 2,
+      "bossOpponentID" : "mireille",
+      "id" : "province-gilded-delta",
+      "name" : "The Gilded Delta",
+      "theme" : "Riverboats and gambling dens; violet neon, swing."
+    },
+    {
+      "act" : 3,
+      "bossOpponentID" : "aldous",
+      "id" : "province-ashen-keep",
+      "name" : "The Ashen Keep",
+      "theme" : "A ruined royal fortress; steel-blue, choral."
+    },
+    {
+      "act" : 4,
+      "bossOpponentID" : "vesper",
+      "id" : "province-hexfen",
+      "name" : "The Hexfen",
+      "theme" : "A corrupted swamp; sickly magenta, dissonant."
+    },
+    {
+      "act" : 5,
+      "bossOpponentID" : "koll",
+      "id" : "province-obsidian-court",
+      "name" : "The Obsidian Court",
+      "theme" : "The capital; gold to blood. The Regent's seat."
+    },
+    {
+      "act" : 0,
+      "id" : "province-wandering-legends",
+      "name" : "Wandering Legends",
+      "theme" : "Roaming premium bosses outside the plot; realm-myth flavor."
     }
   ]
 }
