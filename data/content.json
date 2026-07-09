@@ -1,0 +1,181 @@
+{
+  "nodes" : [
+    {
+      "chapter" : 1,
+      "id" : "node-0",
+      "intro" : "A tinker looks up from a half-built contraption. \"Oh! Here to duel? I'm Rusty — sort of the doorman. Beat me and I'll point you up the road.\" He grins and shuffles, dropping half his cards.",
+      "opponentID" : "rusty",
+      "rewardCardIDs" : [
+        "disgorgon",
+        "dragon"
+      ],
+      "subtitle" : "A friendly warm-up in the workshop.",
+      "victory" : "\"Wow, you're really good!\" Rusty beams and points up the road. \"There's a gambler in the parlor ahead. Tell her I said hi — actually, don't.\""
+    },
+    {
+      "chapter" : 2,
+      "id" : "node-1",
+      "intro" : "Rusty's directions lead to a smoky parlor. A gambler fans her cards without looking up. \"Rusty sent you? Cute. I'll wager you don't make it past the knight at the bridge.\"",
+      "opponentID" : "mireille",
+      "rewardCardIDs" : [
+        "adjudicator",
+        "2-c-soldier-operator"
+      ],
+      "subtitle" : "The gambler deals you in.",
+      "victory" : "Mireille flicks you a chip. \"Beginner's luck. The knight at the bridge won't be half so charmed. Off you go, lucky.\""
+    },
+    {
+      "chapter" : 3,
+      "id" : "node-2",
+      "intro" : "A bridge, and a knight in weathered armor. \"The gambler's coin says you'll fall here. Prove her right, or prove her wrong — but you do not cross without a duel.\"",
+      "opponentID" : "aldous",
+      "rewardCardIDs" : [
+        "panthera-protector",
+        "ironclad"
+      ],
+      "subtitle" : "The knight bars the bridge.",
+      "victory" : "The knight lowers his shield. \"The crossing is yours. Beyond lies the witch — guard your cards, and your wits.\""
+    },
+    {
+      "chapter" : 4,
+      "id" : "node-3",
+      "intro" : "Beyond the bridge, a witch's parlor glitters with hexes. \"The knight let you pass? How careless of him. I serve the Grandmaster, and I do so love to make examples.\"",
+      "opponentID" : "vesper",
+      "rewardCardIDs" : [
+        "moss-grown-adamantoise",
+        "cloud"
+      ],
+      "subtitle" : "The hexweaver's glittering parlor.",
+      "victory" : "Her hexes unravel in a puff of smoke. \"Fine! Go on to him, then. Koll has never lost. You'll make a lovely cautionary tale.\""
+    },
+    {
+      "chapter" : 5,
+      "id" : "node-4",
+      "intro" : "At last, the throne room. The Grandmaster does not rise. \"Vesper's hexes failed. Curious. Sit. Let us see if you are the one the prophecies kept boring me with.\"",
+      "opponentID" : "koll",
+      "rewardCardIDs" : [
+        "barret",
+        "aerith"
+      ],
+      "subtitle" : "The grandmaster's throne. None have won.",
+      "victory" : "Koll is silent a long moment, then inclines his head. \"The streak ends. The table is yours, champion — and the kingdom will learn your name.\""
+    }
+  ],
+  "opponents" : [
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 1,
+        "tempo" : 0.3,
+        "territory" : 0.15
+      },
+      "deckIndex" : 0,
+      "difficulty" : "easy",
+      "id" : "rusty",
+      "intro" : "Oh, a challenger! Go easy on me, I'm still learning the ropes.",
+      "name" : "Rusty",
+      "onLose" : "Aw, beans. Good game though — you've got a real knack for this!",
+      "onWin" : "I won? I WON! Wait 'til the workshop hears about this!",
+      "persona" : "a cheerful, clumsy novice tinkerer who plays it safe and roots for everyone",
+      "portraitSymbol" : "wrench.and.screwdriver.fill",
+      "taunt" : "Huh, that actually worked? Beginner's luck, I swear!",
+      "tauntAhead" : "Wait, am I actually ahead? Don't tell anyone!",
+      "tauntBehind" : "Okay, okay, I can still turn this around… probably.",
+      "tintHex" : 12088894,
+      "title" : "the Tinker",
+      "voicePitch" : 1.25
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 0.8,
+        "tempo" : 0.6,
+        "territory" : 0.3
+      },
+      "deckIndex" : 1,
+      "difficulty" : "normal",
+      "id" : "mireille",
+      "intro" : "Care to make it interesting? I do love long odds.",
+      "name" : "Mireille",
+      "onLose" : "Well played. I'll want a rematch — double or nothing.",
+      "onWin" : "The house always wins. Better luck next hand.",
+      "persona" : "a smooth, confident card sharp who loves a risky, opportunistic play",
+      "portraitSymbol" : "suit.club.fill",
+      "taunt" : "Read 'em and weep, darling.",
+      "tauntAhead" : "The cards are falling my way — as they always do.",
+      "tauntBehind" : "A losing hand is just a setup for a bigger bluff.",
+      "tintHex" : 7231943,
+      "title" : "the Gambler",
+      "voicePitch" : 1.1
+    },
+    {
+      "bias" : {
+        "bankedScore" : 0.8,
+        "laneControl" : 1.2,
+        "tempo" : 0.2,
+        "territory" : 0.6
+      },
+      "deckIndex" : 2,
+      "difficulty" : "normal",
+      "id" : "aldous",
+      "intro" : "Stand and be tested. Hold your ground, and we shall see who endures.",
+      "name" : "Sir Aldous",
+      "onLose" : "Bested, fair and square. Well met, champion.",
+      "onWin" : "A hard-fought field. You have my respect.",
+      "persona" : "a stoic, honorable knight who fights a patient war of territory and walls",
+      "portraitSymbol" : "shield.lefthalf.filled",
+      "taunt" : "A line held is a battle half won.",
+      "tauntAhead" : "The field is mine. Press, and you will break upon it.",
+      "tauntBehind" : "A knight does not yield. I will hold to the last.",
+      "tintHex" : 5013424,
+      "title" : "the Steadfast",
+      "voicePitch" : 0.85
+    },
+    {
+      "bias" : {
+        "bankedScore" : 0.7,
+        "laneControl" : 0.6,
+        "tempo" : 1,
+        "territory" : 0.1
+      },
+      "deckIndex" : 3,
+      "difficulty" : "hard",
+      "id" : "vesper",
+      "intro" : "Let's see how your little cards fare against my hexes, hm?",
+      "name" : "Vesper",
+      "onLose" : "Impossible… my hexes, undone? You'll regret this.",
+      "onWin" : "Did you really think you'd unravel me?",
+      "persona" : "a sly, theatrical witch who delights in buffs, hexes and aggressive swings",
+      "portraitSymbol" : "sparkles",
+      "taunt" : "Wither. Crumble. How delicious.",
+      "tauntAhead" : "You're already unraveling. I do love to watch.",
+      "tauntBehind" : "No matter — a hex always has the last laugh.",
+      "tintHex" : 10238830,
+      "title" : "the Hexweaver",
+      "voicePitch" : 1.35
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 1,
+        "tempo" : 0.3,
+        "territory" : 0.15
+      },
+      "deckIndex" : 4,
+      "difficulty" : "hard",
+      "id" : "koll",
+      "intro" : "Many sit at this table. None rise victorious. Begin.",
+      "name" : "Grandmaster Koll",
+      "onLose" : "…So. The streak ends. You have earned your place.",
+      "onWin" : "As expected. The throne remains mine.",
+      "persona" : "a calm, ruthless grandmaster who has not lost a duel in living memory",
+      "portraitSymbol" : "crown.fill",
+      "taunt" : "Every move you make, I made three turns ago.",
+      "tauntAhead" : "It is already decided. You simply have not realized.",
+      "tauntBehind" : "Curious. I will allow you this small moment.",
+      "tintHex" : 13214247,
+      "title" : "the Unbeaten",
+      "voicePitch" : 0.8
+    }
+  ]
+}
