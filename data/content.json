@@ -2,6 +2,84 @@
   "nodes" : [
     {
       "chapter" : 1,
+      "id" : "node-rustmarch-grasslands-wolf",
+      "intro" : "Yellow grass hisses in the dry wind, and a lean wolf pads onto the old duelist's ring, hackles high.",
+      "nodeKind" : "main",
+      "opponentID" : "grasslands-wolf",
+      "provinceID" : "province-rustmarch",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Scrub-Runner",
+      "victory" : "Bramblefang dips its head, then melts back into the scrub, ceding the grasslands to you."
+    },
+    {
+      "chapter" : 1,
+      "id" : "node-rustmarch-cactuar",
+      "intro" : "A lone cactus-thing bristles beside a dry well, needles rattling like it's been waiting all day for company.",
+      "nodeKind" : "main",
+      "opponentID" : "cactuar",
+      "provinceID" : "province-rustmarch",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Prickly",
+      "victory" : "Pincushion Pete gives a stiff little bow and points you down the dusty road with one long spine."
+    },
+    {
+      "chapter" : 1,
+      "id" : "node-rustmarch-mu",
+      "intro" : "A fat little burrow-critter pokes its nose from a hole in the roadbank, cards clutched in tiny paws.",
+      "nodeKind" : "main",
+      "opponentID" : "mu",
+      "provinceID" : "province-rustmarch",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Nibbler",
+      "victory" : "Twitchell drops its whole hand in fright and vanishes down its burrow, leaving the path clear."
+    },
+    {
+      "chapter" : 1,
+      "id" : "node-rustmarch-levrikon",
+      "intro" : "A long-eared, coppery beast bounds circles round a fence post, too restless to stand for a proper greeting.",
+      "nodeKind" : "side",
+      "opponentID" : "levrikon",
+      "provinceID" : "province-rustmarch",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Bounder",
+      "victory" : "Coppertail flattens its ears, gives one sulky hop, and bounds off across the scrub."
+    },
+    {
+      "chapter" : 1,
+      "id" : "node-rustmarch-elphadunk",
+      "intro" : "A great tusked beast dozes across the trail, and only stirs its heavy head when your cards come out.",
+      "nodeKind" : "side",
+      "opponentID" : "elphadunk",
+      "provinceID" : "province-rustmarch",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Stampede",
+      "victory" : "Old Rumble heaves aside with a groaning sigh, clearing the whole road for you to pass."
+    },
+    {
+      "chapter" : 1,
+      "id" : "node-rustmarch-mandragora",
+      "intro" : "A gnarled root pokes from the trailside dirt, humming a cracked little tune that sets your teeth on edge.",
+      "nodeKind" : "side",
+      "opponentID" : "mandragora",
+      "provinceID" : "province-rustmarch",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Rooted",
+      "victory" : "Screechling lets out one last defeated warble and burrows sulkily back into the Rustmarch soil."
+    },
+    {
+      "chapter" : 1,
       "clue" : "Rusty played a sealed \"gift deck\" — handed to him by a hooded official of the court.",
       "id" : "node-0",
       "intro" : "A tinker looks up from a half-built contraption. \"Oh! Here to duel? I'm Rusty — sort of the doorman. Beat me and I'll point you up the road.\" He grins and shuffles, dropping half his cards.",
@@ -14,6 +92,84 @@
       ],
       "subtitle" : "A friendly warm-up in the workshop.",
       "victory" : "\"Wow, you're really good!\" Rusty beams and points up the road. \"There's a gambler in the parlor ahead. Tell her I said hi — actually, don't.\""
+    },
+    {
+      "chapter" : 2,
+      "id" : "node-gilded-delta-flan",
+      "intro" : "In a violet-lit dessert parlor off the docks, a trembling pudding slides a stack of chips across the felt and grins.",
+      "nodeKind" : "main",
+      "opponentID" : "flan",
+      "provinceID" : "province-gilded-delta",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Wobbling Wager",
+      "victory" : "Flan settles with a satisfied jiggle, sweeping the neon-glinting pot into its quivering embrace."
+    },
+    {
+      "chapter" : 2,
+      "id" : "node-gilded-delta-queen-bee",
+      "intro" : "Behind a curtain of amber beads, a gilded queen holds court over a humming table of masked riverboat gamblers.",
+      "nodeKind" : "main",
+      "opponentID" : "queen-bee",
+      "provinceID" : "province-gilded-delta",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the House Always Stings",
+      "victory" : "Queen Bee reclines on her honeyed throne, the pot swept neatly into her waiting court."
+    },
+    {
+      "chapter" : 2,
+      "id" : "node-gilded-delta-toxirat",
+      "intro" : "Belowdecks in a smoke-choked cargo hold, a green-slick rat shuffles a suspiciously sticky deck by lantern light.",
+      "nodeKind" : "main",
+      "opponentID" : "toxirat",
+      "provinceID" : "province-gilded-delta",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Bilge-Deck Cheat",
+      "victory" : "Toxirat scurries off with the winnings clutched to his chest, cackling into the bilge-dark."
+    },
+    {
+      "chapter" : 2,
+      "id" : "node-gilded-delta-zemzelett",
+      "intro" : "On the misted upper deck, a pale feathered spirit floats above the table, murmuring to the swirling delta fog.",
+      "nodeKind" : "side",
+      "opponentID" : "zemzelett",
+      "provinceID" : "province-gilded-delta",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Fogbank Fortune",
+      "victory" : "Zemzelett dissolves half into mist, the pot vanishing with her into the swirling violet haze."
+    },
+    {
+      "chapter" : 2,
+      "id" : "node-gilded-delta-capparwire",
+      "intro" : "In a buzzing back room strung with humming neon, a jittery wire-creature snaps the deck and deals before you sit.",
+      "nodeKind" : "side",
+      "opponentID" : "capparwire",
+      "provinceID" : "province-gilded-delta",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Live-Wire Sharp",
+      "victory" : "Capparwire crackles with triumph, raking the pot in with a shower of tiny violet sparks."
+    },
+    {
+      "chapter" : 2,
+      "id" : "node-gilded-delta-fleetwing",
+      "intro" : "A sharp-dressed bird alights at the felt just long enough to fan a deck between manicured wingtips and wink.",
+      "nodeKind" : "side",
+      "opponentID" : "fleetwing",
+      "provinceID" : "province-gilded-delta",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Quick-Deal Dandy",
+      "victory" : "Fleetwing tips his little hat, pockets the pot, and flits out the window before the cards settle."
     },
     {
       "chapter" : 2,
@@ -32,6 +188,84 @@
     },
     {
       "chapter" : 3,
+      "id" : "node-ashen-keep-ogre",
+      "intro" : "The broken gate of the Ashen Keep is chained shut by a brute the size of a siege ram.",
+      "nodeKind" : "main",
+      "opponentID" : "ogre",
+      "provinceID" : "province-ashen-keep",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "Keep-Breaker",
+      "victory" : "The gate-brute topples, and the ruined threshold lies open before you."
+    },
+    {
+      "chapter" : 3,
+      "id" : "node-ashen-keep-grenadier",
+      "intro" : "A powder-scarred corporal stacks live charges along the Keep's inner rampart.",
+      "nodeKind" : "main",
+      "opponentID" : "grenadier",
+      "provinceID" : "province-ashen-keep",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "Powder-Hand",
+      "victory" : "The grenadier's charges lie spent and cold along the silent rampart."
+    },
+    {
+      "chapter" : 3,
+      "id" : "node-ashen-keep-riot-trooper",
+      "intro" : "A locked shieldwall of riot-troopers bars the scorched corridor beneath a sergeant's cold command.",
+      "nodeKind" : "main",
+      "opponentID" : "riot-trooper",
+      "provinceID" : "province-ashen-keep",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "Shieldwall",
+      "victory" : "The shieldwall buckles and scatters, the corridor open behind them."
+    },
+    {
+      "chapter" : 3,
+      "id" : "node-ashen-keep-security-officer",
+      "intro" : "A rigid fortress warden checks credentials at the sealed door to the Empress's ruined hall.",
+      "nodeKind" : "side",
+      "opponentID" : "security-officer",
+      "provinceID" : "province-ashen-keep",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "Keymaster",
+      "victory" : "The warden's seals fail, and the sealed door swings inward at last."
+    },
+    {
+      "chapter" : 3,
+      "id" : "node-ashen-keep-flametrooper",
+      "intro" : "A flametrooper scours hexed cards from the Keep's halls, leaving blackened stone in his wake.",
+      "nodeKind" : "side",
+      "opponentID" : "flametrooper",
+      "provinceID" : "province-ashen-keep",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "Ash-Maker",
+      "victory" : "The pyre-sergeant's flame dies, and the smoke clears from the scorched hall."
+    },
+    {
+      "chapter" : 3,
+      "id" : "node-ashen-keep-crawler",
+      "intro" : "Something Wither-warped skitters through the Keep's flooded cellars, dragging hexed cards behind it.",
+      "nodeKind" : "side",
+      "opponentID" : "crawler",
+      "provinceID" : "province-ashen-keep",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Wither-Touched",
+      "victory" : "The crawler unravels into ash and stagnant water, the cellar quiet again."
+    },
+    {
+      "chapter" : 3,
       "clue" : "Aldous swears the Empress died at the table — with a hexed card already in play.",
       "id" : "node-2",
       "intro" : "A bridge, and a knight in weathered armor. \"The gambler's coin says you'll fall here. Prove her right, or prove her wrong — but you do not cross without a duel.\"",
@@ -44,6 +278,84 @@
       ],
       "subtitle" : "The knight bars the bridge.",
       "victory" : "The knight lowers his shield. \"The crossing is yours. Beyond lies the witch — guard your cards, and your wits.\""
+    },
+    {
+      "chapter" : 4,
+      "id" : "node-hexfen-great-malboro",
+      "intro" : "The bog exhales a green miasma, and something vast and gurgling unfurls a hundred grinning mouths from the muck.",
+      "nodeKind" : "main",
+      "opponentID" : "great-malboro",
+      "provinceID" : "province-hexfen",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "Rot-Breather of the Sunken Court",
+      "victory" : "The Fenmaw collapses into a slick of steaming rot, its many mouths falling silent one wet gasp at a time."
+    },
+    {
+      "chapter" : 4,
+      "id" : "node-hexfen-mindflayer",
+      "intro" : "Threads of wet violet light drift between the reeds, and a robed thing turns four writhing tendrils toward your skull.",
+      "nodeKind" : "main",
+      "opponentID" : "mindflayer",
+      "provinceID" : "province-hexfen",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Palate of Thought",
+      "victory" : "The Palate's tendrils curl inward and shrivel, its stolen thoughts spilling back into the fen like drowned whispers."
+    },
+    {
+      "chapter" : 4,
+      "id" : "node-hexfen-scrutineye",
+      "intro" : "A single vast eye rises from the black water, its slit pupil narrowing as it appraises the worth of your blood.",
+      "nodeKind" : "main",
+      "opponentID" : "scrutineye",
+      "provinceID" : "province-hexfen",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "Warden of Blighted Ledgers",
+      "victory" : "The great eye clouds, weeps a thin magenta ichor, and sinks beneath the ledger-scummed water forever."
+    },
+    {
+      "chapter" : 4,
+      "id" : "node-hexfen-screamer",
+      "intro" : "A wail rolls across the marsh, curdling the water and bending the reeds flat, as a mouth of pure sound tears open in the mist.",
+      "nodeKind" : "side",
+      "opponentID" : "screamer",
+      "provinceID" : "province-hexfen",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Dirge That Walks",
+      "victory" : "The scream chokes into a whistle, then nothing, and the Hexfen rings with a silence that had been missing for a hundred years."
+    },
+    {
+      "chapter" : 4,
+      "id" : "node-hexfen-ignilisk",
+      "intro" : "Sickly blue-magenta flame skates across the swamp water, coiling upward into a serpent whose every hiss spits burning hex.",
+      "nodeKind" : "side",
+      "opponentID" : "ignilisk",
+      "provinceID" : "province-hexfen",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Bogfire Serpent",
+      "victory" : "The bogfire serpent gutters, drowns in its own reflection, and the marsh goes cold and dark where it died."
+    },
+    {
+      "chapter" : 4,
+      "id" : "node-hexfen-crystalline-crab",
+      "intro" : "Jagged magenta crystal juts from the mire, and within its heart an armored shape unfolds glittering claws that ring like cracked bells.",
+      "nodeKind" : "side",
+      "opponentID" : "crystalline-crab",
+      "provinceID" : "province-hexfen",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Hexfen Reliquary",
+      "victory" : "Quartzmaw's crystalline hide shatters into a thousand dimming shards, each one hissing as the fen's corruption bleeds out of it."
     },
     {
       "chapter" : 4,
@@ -62,6 +374,84 @@
     },
     {
       "chapter" : 5,
+      "id" : "node-obsidian-court-red-dragon",
+      "intro" : "At the gilded outer gate, where the capital's gold runs molten red, a crimson dragon uncoils across your path.",
+      "nodeKind" : "main",
+      "opponentID" : "red-dragon",
+      "provinceID" : "province-obsidian-court",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Ember-Marshal",
+      "victory" : "The Ember-Marshal collapses to cooling slag, and the first gate of the Obsidian Court groans open."
+    },
+    {
+      "chapter" : 5,
+      "id" : "node-obsidian-court-archdragon",
+      "intro" : "Beneath vaulted obsidian arches carved with a thousand dead claimants, the eldest dragon of Auveraine awaits its rite.",
+      "nodeKind" : "main",
+      "opponentID" : "archdragon",
+      "provinceID" : "province-obsidian-court",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "Keeper of the Ancient Bloodright",
+      "victory" : "Sathyrion lowers its ancient head at last, conceding the rite it has guarded since the first throne."
+    },
+    {
+      "chapter" : 5,
+      "id" : "node-obsidian-court-obsidian-wyrm",
+      "intro" : "The corridor itself rears up as a wyrm of black volcanic glass, your fractured reflection sneering back a thousandfold.",
+      "nodeKind" : "main",
+      "opponentID" : "obsidian-wyrm",
+      "provinceID" : "province-obsidian-court",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Black Glass Warden",
+      "victory" : "Nyxhalor shatters into a rain of obsidian shards, clearing the mirrored hall to the inner Court."
+    },
+    {
+      "chapter" : 5,
+      "id" : "node-obsidian-court-devil-rider",
+      "intro" : "In the tilting-yard of blood before the inner keep, an infernal knight lowers a lance wreathed in courtly flame.",
+      "nodeKind" : "side",
+      "opponentID" : "devil-rider",
+      "provinceID" : "province-obsidian-court",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "First Lance of the Infernal Guard",
+      "victory" : "Ser Malecaste topples from his smoldering steed, and the Infernal Guard parts before you."
+    },
+    {
+      "chapter" : 5,
+      "id" : "node-obsidian-court-hell-rider-ii",
+      "intro" : "A second faceless horseman wheels from the shadow of the vacant throne, hooves striking sparks from black gold.",
+      "nodeKind" : "side",
+      "opponentID" : "hell-rider-ii",
+      "provinceID" : "province-obsidian-court",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "Herald of the Empty Throne",
+      "victory" : "The Second Rider dissolves into cold smoke, and the way to Corvane's empty seat lies open."
+    },
+    {
+      "chapter" : 5,
+      "id" : "node-obsidian-court-deathwheel",
+      "intro" : "Before the dais of the empty throne, a colossal engine of fused riders and rotating blades roars to life.",
+      "nodeKind" : "side",
+      "opponentID" : "deathwheel",
+      "provinceID" : "province-obsidian-court",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "Corvane's Last Warden",
+      "victory" : "The Deathwheel seizes and collapses into scrap and ash, leaving only the empty throne ahead."
+    },
+    {
+      "chapter" : 5,
       "clue" : "Koll was never the master. The Regent — Corvane — steps from behind the throne he kept empty.",
       "id" : "node-4",
       "intro" : "At last, the throne room. The Grandmaster does not rise. \"Vesper's hexes failed. Curious. Sit. Let us see if you are the one the prophecies kept boring me with.\"",
@@ -74,6 +464,98 @@
       ],
       "subtitle" : "The grandmaster's throne. None have won.",
       "victory" : "Koll is silent a long moment, then inclines his head. \"The streak ends. The table is yours, champion — and the kingdom will learn your name.\""
+    },
+    {
+      "chapter" : 5,
+      "clue" : "The Bloodright is broken and remade — Auveraine has its true heir.",
+      "id" : "node-finale-corvane",
+      "intro" : "Koll steps aside, and the kindly Regent who guided you from the start folds his hands and smiles — the villain, at last, in plain sight.",
+      "nodeKind" : "boss",
+      "opponentID" : "corvane",
+      "provinceID" : "province-obsidian-court",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Provident",
+      "victory" : "Corvane crumbles as the hexed cards fall dead from his hand, and the throne of Auveraine stands open for its true heir."
+    },
+    {
+      "chapter" : 0,
+      "id" : "node-legend-ifrit",
+      "intro" : "Where the mountains bleed molten gold, the Cinder Sovereign Ifrit rules a throne no mortal crown could survive.",
+      "nodeKind" : "side",
+      "opponentID" : "ifrit",
+      "provinceID" : "province-wandering-legends",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Cinder Sovereign",
+      "victory" : "The caldera cools to glass, and Ifrit bows his burning head to a fire greater than his own."
+    },
+    {
+      "chapter" : 0,
+      "id" : "node-legend-quetzalcoatl",
+      "intro" : "Above the cloud-veiled peaks glides Quetzalcoatl, the Feathered Dawn, who tests all who climb toward the morning.",
+      "nodeKind" : "side",
+      "opponentID" : "quetzalcoatl",
+      "provinceID" : "province-wandering-legends",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Feathered Dawn",
+      "victory" : "The great serpent spirals once into the sunrise and is gone, leaving a single luminous feather at your feet."
+    },
+    {
+      "chapter" : 0,
+      "id" : "node-legend-zu",
+      "intro" : "Where the thunderheads never break, the ravenous thunderbird Zu shrieks its dominion over a stolen sky.",
+      "nodeKind" : "side",
+      "opponentID" : "zu",
+      "provinceID" : "province-wandering-legends",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Storm That Steals the Sky",
+      "victory" : "Zu's final screech scatters into distant thunder, and the long-caged sky opens blue above you."
+    },
+    {
+      "chapter" : 0,
+      "id" : "node-legend-tonberry-king",
+      "intro" : "Down the endless torchlit corridor shuffles the Tonberry King, lantern in hand, closing the distance no man has outrun.",
+      "nodeKind" : "side",
+      "opponentID" : "tonberry-king",
+      "provinceID" : "province-wandering-legends",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "He Who Walks Without Haste",
+      "victory" : "The lantern gutters and dims, the knife lowers, and for the first time in ages the little king simply stops."
+    },
+    {
+      "chapter" : 0,
+      "id" : "node-legend-emerald-witch",
+      "intro" : "Deep in the strangling green sleeps the Emerald Witch, whose garden is grown from the bones of every crown before.",
+      "nodeKind" : "side",
+      "opponentID" : "emerald-witch",
+      "provinceID" : "province-wandering-legends",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "Keeper of the Verdant Reckoning",
+      "victory" : "The thorns wither and part, and the Emerald Witch dissolves into falling petals, her garden yours to walk."
+    },
+    {
+      "chapter" : 0,
+      "id" : "node-legend-shadowblood-queen",
+      "intro" : "Beneath the deepest vault of Auveraine waits the Shadowblood Queen, from whose ancient duel all the Bloodright was born.",
+      "nodeKind" : "side",
+      "opponentID" : "shadowblood-queen",
+      "provinceID" : "province-wandering-legends",
+      "rewardCardIDs" : [
+
+      ],
+      "subtitle" : "the Throne Beneath the Throne",
+      "victory" : "The undying queen closes her eyes at last, her shadow-throne crumbling to light as the true crown passes to you."
     }
   ],
   "opponents" : [
@@ -196,6 +678,894 @@
       "tintHex" : 13214247,
       "title" : "the Unbeaten",
       "voicePitch" : 0.8
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 1,
+        "tempo" : 0.3,
+        "territory" : 0.15
+      },
+      "deckIndex" : 0,
+      "difficulty" : "easy",
+      "id" : "grasslands-wolf",
+      "intro" : "You smell like far-off cities, little traveler. Bramblefang runs these grasses. Show teeth, or run.",
+      "name" : "Bramblefang",
+      "onLose" : "You... run faster than the pack. Go. The grass is yours.",
+      "onWin" : "The Rustmarch keeps its runners. Go home, soft one.",
+      "packID" : "pack-rustmarch",
+      "persona" : "A pack-minded aggressor who floods the board early and hunts weak cards down.",
+      "portraitSymbol" : "pawprint.fill",
+      "taunt" : "Pack circles slow. Then pack does not.",
+      "tauntAhead" : "You bleed already. I taste the win on the wind.",
+      "tauntBehind" : "Grr... one wolf falls. The grass still hides more.",
+      "tintHex" : 12088894,
+      "title" : "the Scrub-Runner",
+      "voicePitch" : 0.85
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 0.8,
+        "tempo" : 0.6,
+        "territory" : 0.3
+      },
+      "deckIndex" : 1,
+      "difficulty" : "easy",
+      "id" : "cactuar",
+      "intro" : "Howdy. Don't hug me. Folks always try. Now sit, and let's prick this out proper.",
+      "name" : "Pincushion Pete",
+      "onLose" : "Well, shoot. Ya out-pricked a cactus. Take yer road, sharp one.",
+      "onWin" : "Told ya not to hug me. Off ya go, all poked full.",
+      "packID" : "pack-rustmarch",
+      "persona" : "A patient defensive stallwaller who chips away with steady, needling damage.",
+      "portraitSymbol" : "pawprint.fill",
+      "taunt" : "One needle. Then another. I got a thousand more, friend.",
+      "tauntAhead" : "Ha! Full of holes already? Stand still, I ain't done.",
+      "tauntBehind" : "Yeouch. Losin' my points quick as I lose needles.",
+      "tintHex" : 12088894,
+      "title" : "the Prickly",
+      "voicePitch" : 0.91
+    },
+    {
+      "bias" : {
+        "bankedScore" : 0.8,
+        "laneControl" : 1.2,
+        "tempo" : 0.2,
+        "territory" : 0.6
+      },
+      "deckIndex" : 2,
+      "difficulty" : "easy",
+      "id" : "mu",
+      "intro" : "Oh! Oh, a duel? You want duel? Twitchell duels! Don't step on me. Please.",
+      "name" : "Twitchell",
+      "onLose" : "Squeeeak! Too big, too big! Twitchell go now. Bye bye!",
+      "onWin" : "Twitchell win! Twitchell win! Now Twitchell hide before you change mind!",
+      "packID" : "pack-rustmarch",
+      "persona" : "A skittish swarm-player who plays many tiny cards and scurries out of danger.",
+      "portraitSymbol" : "pawprint.fill",
+      "taunt" : "Little, little, little cards. Lots of little. Squeak!",
+      "tauntAhead" : "Nibble nibble! Winning! Twitchell winning, hee!",
+      "tauntBehind" : "Eep! Losing losing! Where's my hole, where's my hole?!",
+      "tintHex" : 12088894,
+      "title" : "the Nibbler",
+      "voicePitch" : 0.97
+    },
+    {
+      "bias" : {
+        "bankedScore" : 0.7,
+        "laneControl" : 0.6,
+        "tempo" : 1,
+        "territory" : 0.1
+      },
+      "deckIndex" : 3,
+      "difficulty" : "easy",
+      "id" : "levrikon",
+      "intro" : "Quick quick! You slow, I fast. Coppertail no wait for slow duelists. Go!",
+      "name" : "Coppertail",
+      "onLose" : "You... faster than a Coppertail? Impossible. Fine. This road yours.",
+      "onWin" : "Ha! Coppertail bound over you like a low fence. Bye, slow-legs!",
+      "packID" : "pack-rustmarch",
+      "persona" : "A fast, hit-and-run tempo player who leaps ahead early and never sits still.",
+      "portraitSymbol" : "pawprint.fill",
+      "taunt" : "Hop here. Hop there. You never catch Coppertail.",
+      "tauntAhead" : "Too far ahead! Bound, bound, bound! You still back there?",
+      "tauntBehind" : "Ears down. Coppertail hop wrong way. Bad, bad hops.",
+      "tintHex" : 12088894,
+      "title" : "the Bounder",
+      "voicePitch" : 1.03
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 1,
+        "tempo" : 0.3,
+        "territory" : 0.15
+      },
+      "deckIndex" : 4,
+      "difficulty" : "easy",
+      "id" : "elphadunk",
+      "intro" : "Mmm. A little one comes to duel Old Rumble. Take your time. I have plenty.",
+      "name" : "Old Rumble",
+      "onLose" : "You struck before Rumble could stand tall. Well done, small one. Pass.",
+      "onWin" : "The ground shakes, little one goes home. Watch your step next time.",
+      "packID" : "pack-rustmarch",
+      "persona" : "A slow, heavy ramp-player who builds up huge cards and crashes through late.",
+      "portraitSymbol" : "pawprint.fill",
+      "taunt" : "Slow feet. Heavy feet. Feet that do not stop.",
+      "tauntAhead" : "Rumble builds. Rumble grows. Soon Rumble rolls right over you.",
+      "tauntBehind" : "Hrmph. Small and fast bites the big and slow. Not fair.",
+      "tintHex" : 12088894,
+      "title" : "the Stampede",
+      "voicePitch" : 1.09
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 0.8,
+        "tempo" : 0.6,
+        "territory" : 0.3
+      },
+      "deckIndex" : 0,
+      "difficulty" : "easy",
+      "id" : "mandragora",
+      "intro" : "...you dug me up for a DUEL? Fine. Cover your ears, sprout. I sing off-key.",
+      "name" : "Screechling",
+      "onLose" : "Fine. FINE. Pull me up and drag me along, victor. I'll scream the whole way.",
+      "onWin" : "AAAIEEE! ...ahem. That's my winning note. Now bury me back, loud-loser.",
+      "packID" : "pack-rustmarch",
+      "persona" : "A disruptive control-player who locks the board down and wails to throw you off.",
+      "portraitSymbol" : "pawprint.fill",
+      "taunt" : "Roots under your feet. You not going anywhere.",
+      "tauntAhead" : "SCREEEE— oh, sorry. That one meant you're losing.",
+      "tauntBehind" : "Wilting... wilting... don't you dare replant me smug.",
+      "tintHex" : 12088894,
+      "title" : "the Rooted",
+      "voicePitch" : 1.15
+    },
+    {
+      "bias" : {
+        "bankedScore" : 0.8,
+        "laneControl" : 1.2,
+        "tempo" : 0.2,
+        "territory" : 0.6
+      },
+      "deckIndex" : 1,
+      "difficulty" : "normal",
+      "id" : "flan",
+      "intro" : "Easy now, don't jostle me. I wobble, I wager, but darlin', I never spill a winning hand.",
+      "name" : "Flan",
+      "onLose" : "Cracked at last... scrape me up and pour me a drink.",
+      "onWin" : "Wobble on home, friend. The pot's mine, all sweet and set.",
+      "packID" : "pack-gilded-delta",
+      "persona" : "A quivering, sugar-slick swamp pudding of a hustler who trembles with every bet but never folds.",
+      "portraitSymbol" : "suit.club.fill",
+      "taunt" : "Steady, steady... watch me shake you down to nothin'.",
+      "tauntAhead" : "See how I quiver? That's the sweet flavor of your defeat, sugar.",
+      "tauntBehind" : "Knock me all you like, I jiggle right back up onto my feet.",
+      "tintHex" : 7231943,
+      "title" : "the Wobbling Wager",
+      "voicePitch" : 0.85
+    },
+    {
+      "bias" : {
+        "bankedScore" : 0.7,
+        "laneControl" : 0.6,
+        "tempo" : 1,
+        "territory" : 0.1
+      },
+      "deckIndex" : 2,
+      "difficulty" : "normal",
+      "id" : "queen-bee",
+      "intro" : "Welcome to my hive, sugar. The honey's sweet, but the house always keeps its sting.",
+      "name" : "Queen Bee",
+      "onLose" : "Stripped of my crown by a common drone? Unthinkable.",
+      "onWin" : "The hive feasts tonight. Thank you for the honey, dear.",
+      "packID" : "pack-gilded-delta",
+      "persona" : "A regal, honey-tongued matron of the gambling hive who runs the table like a throne and taxes every loss.",
+      "portraitSymbol" : "suit.club.fill",
+      "taunt" : "Buzz all you want, darling. My workers already counted your coin.",
+      "tauntAhead" : "The comb is mine, and so is your purse. Do keep buzzing.",
+      "tauntBehind" : "A sting or two won't dethrone the queen, little drone.",
+      "tintHex" : 7231943,
+      "title" : "the House Always Stings",
+      "voicePitch" : 0.91
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 1,
+        "tempo" : 0.3,
+        "territory" : 0.15
+      },
+      "deckIndex" : 3,
+      "difficulty" : "normal",
+      "id" : "toxirat",
+      "intro" : "Pull up a crate, friend. Down here in the bilge, the cards are as crooked as I am.",
+      "name" : "Toxirat",
+      "onLose" : "Bilge take it! Cheated by an honest hand for once.",
+      "onWin" : "Squeak squeak, the pot's mine. Don't check my sleeves, now.",
+      "packID" : "pack-gilded-delta",
+      "persona" : "A scheming, plague-slick riverboat rat who deals from the bottom of the deck and coughs green when he lies.",
+      "portraitSymbol" : "suit.club.fill",
+      "taunt" : "Heh. Sniff that? That's the smell of your luck rottin' away.",
+      "tauntAhead" : "I'm gnawin' through your deck like cheese, and it tastes fine.",
+      "tauntBehind" : "A cornered rat bites hardest, chum. Watch them fingers.",
+      "tintHex" : 7231943,
+      "title" : "the Bilge-Deck Cheat",
+      "voicePitch" : 0.97
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 0.8,
+        "tempo" : 0.6,
+        "territory" : 0.3
+      },
+      "deckIndex" : 4,
+      "difficulty" : "normal",
+      "id" : "zemzelett",
+      "intro" : "The mist parts for me, wanderer. It whispered your hand before you drew it.",
+      "name" : "Zemzelett",
+      "onLose" : "The fog lied? No... I misread the omen. How rare.",
+      "onWin" : "The mist keeps its promises. Fortune drifts to me, as foretold.",
+      "packID" : "pack-gilded-delta",
+      "persona" : "A dreamy, wind-borne fowl-spirit who reads fates in the delta mist and bets on omens no one else can see.",
+      "portraitSymbol" : "suit.club.fill",
+      "taunt" : "The fog already told me. You just haven't caught up, dear.",
+      "tauntAhead" : "I foresaw this drift. The current carries the pot to me.",
+      "tauntBehind" : "An omen clouds, but the wind still turns my way, love.",
+      "tintHex" : 7231943,
+      "title" : "the Fogbank Fortune",
+      "voicePitch" : 1.03
+    },
+    {
+      "bias" : {
+        "bankedScore" : 0.8,
+        "laneControl" : 1.2,
+        "tempo" : 0.2,
+        "territory" : 0.6
+      },
+      "deckIndex" : 0,
+      "difficulty" : "normal",
+      "id" : "capparwire",
+      "intro" : "Ante up, ante up, let's go! I don't wait, sparky, and neither should you.",
+      "name" : "Capparwire",
+      "onLose" : "Blew a fuse... short-circuited at the wire. Rewire me.",
+      "onWin" : "Ha! Zap. Told ya I was quick. Pot's mine, spark's out.",
+      "packID" : "pack-gilded-delta",
+      "persona" : "A crackling, high-strung tangle of nerves and copper who plays fast, talks faster, and shocks the slow.",
+      "portraitSymbol" : "suit.club.fill",
+      "taunt" : "Too slow, too slow! I already played three moves in my head.",
+      "tauntAhead" : "Feel that current? That's me, live and lightin' you up.",
+      "tauntBehind" : "Just a hiccup in the wire, friend. I bounce back hot.",
+      "tintHex" : 7231943,
+      "title" : "the Live-Wire Sharp",
+      "voicePitch" : 1.09
+    },
+    {
+      "bias" : {
+        "bankedScore" : 0.7,
+        "laneControl" : 0.6,
+        "tempo" : 1,
+        "territory" : 0.1
+      },
+      "deckIndex" : 1,
+      "difficulty" : "normal",
+      "id" : "fleetwing",
+      "intro" : "Evenin', friend. I deal quick and I fly quicker, so let's make this fun.",
+      "name" : "Fleetwing",
+      "onLose" : "Clipped my wings, did ya? Fine hand. I'll flutter off then.",
+      "onWin" : "And that's my cue to fly. Pleasure fleecin' you, friend.",
+      "packID" : "pack-gilded-delta",
+      "persona" : "A dapper, fast-fluttering delta bird who flits table to table, all charm and speed, gone before the mark blinks.",
+      "portraitSymbol" : "suit.club.fill",
+      "taunt" : "Blink and you'll miss it, darling. I already have.",
+      "tauntAhead" : "Light as a feather, ahead by a mile. Try to keep pace.",
+      "tauntBehind" : "Ruffled, not grounded. This bird's got another gust in him.",
+      "tintHex" : 7231943,
+      "title" : "the Quick-Deal Dandy",
+      "voicePitch" : 1.15
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 1,
+        "tempo" : 0.3,
+        "territory" : 0.15
+      },
+      "deckIndex" : 2,
+      "difficulty" : "normal",
+      "id" : "ogre",
+      "intro" : "Big walls fall. Small men fall faster. You come to the Empress's grave to play cards? Brakka will make it your grave too.",
+      "name" : "Brakka",
+      "onLose" : "Brakka... falls. Cold floor. Same floor She died on. Fitting.",
+      "onWin" : "Down you go. The Keep keeps another one. Brakka stacks the bones neat.",
+      "packID" : "pack-ashen-keep",
+      "persona" : "A hulking garrison brute who guards the Ashen Keep's shattered gate; slow of speech, fond of crushing things.",
+      "portraitSymbol" : "shield.fill",
+      "taunt" : "Brakka smash. You bleed. Simple work.",
+      "tauntAhead" : "You crack like the old stones. Brakka pushes harder.",
+      "tauntBehind" : "Ha! Little sting. Brakka has been hit by walls.",
+      "tintHex" : 5013424,
+      "title" : "Keep-Breaker",
+      "voicePitch" : 0.85
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 0.8,
+        "tempo" : 0.6,
+        "territory" : 0.3
+      },
+      "deckIndex" : 3,
+      "difficulty" : "normal",
+      "id" : "grenadier",
+      "intro" : "Deck's loaded, fuse is short. This is a garrison, not a game, and you're standing in the kill zone. Let's see how long you last, recruit.",
+      "name" : "Corporal Vantle",
+      "onLose" : "Charge dud... and the blast came back on me. Noted. Filed. Damn.",
+      "onWin" : "Cleared. Sweep the ash, log the kill. Next in the line.",
+      "packID" : "pack-ashen-keep",
+      "persona" : "A grim, precise siege soldier who reduces problems to blast radius and fuse length; speaks in clipped ordnance terms.",
+      "portraitSymbol" : "shield.fill",
+      "taunt" : "Pull the pin. Count down. Boom.",
+      "tauntAhead" : "Ranged and ranged. You're already inside the crater.",
+      "tauntBehind" : "Misfire. I've got more shells than you've got moves.",
+      "tintHex" : 5013424,
+      "title" : "Powder-Hand",
+      "voicePitch" : 0.91
+    },
+    {
+      "bias" : {
+        "bankedScore" : 0.8,
+        "laneControl" : 1.2,
+        "tempo" : 0.2,
+        "territory" : 0.6
+      },
+      "deckIndex" : 4,
+      "difficulty" : "normal",
+      "id" : "riot-trooper",
+      "intro" : "The line stops here. Under me. Everyone thinks they're the one who gets through. The ash out front says otherwise. Draw and try.",
+      "name" : "Sergeant Halveck",
+      "onLose" : "The wall... breaks. Twenty years holding, and it breaks today. Pass, then.",
+      "onWin" : "Line holds. Another body for the pile. The Keep stays shut.",
+      "packID" : "pack-ashen-keep",
+      "persona" : "A stone-faced crowd-breaker who holds the line and expects the world to break against him; disciplined, immovable.",
+      "portraitSymbol" : "shield.fill",
+      "taunt" : "Shield up. You don't pass.",
+      "tauntAhead" : "You push, I hold, you break. That's the order of it.",
+      "tauntBehind" : "The wall bends. The wall does not fall. Come again.",
+      "tintHex" : 5013424,
+      "title" : "Shieldwall",
+      "voicePitch" : 0.97
+    },
+    {
+      "bias" : {
+        "bankedScore" : 0.7,
+        "laneControl" : 0.6,
+        "tempo" : 1,
+        "territory" : 0.1
+      },
+      "deckIndex" : 0,
+      "difficulty" : "normal",
+      "id" : "security-officer",
+      "intro" : "Halt. No clearance, no passage. This ground is sealed by order of the succession. If you want the seal broken, you'll break it across the table.",
+      "name" : "Warden Osk",
+      "onLose" : "Clearance... overridden. My seals mean nothing now. The Keep is yours.",
+      "onWin" : "Detained. Sealed. Struck from the roll. Move along, what's left of you.",
+      "packID" : "pack-ashen-keep",
+      "persona" : "A cold, procedural fortress warden obsessed with clearance, protocol, and who is and isn't authorized to breathe here.",
+      "portraitSymbol" : "shield.fill",
+      "taunt" : "Access denied. Try the next card.",
+      "tauntAhead" : "You're flagged, logged, and losing. Protocol works.",
+      "tauntBehind" : "Irregular. I'll amend the record once I've corrected you.",
+      "tintHex" : 5013424,
+      "title" : "Keymaster",
+      "voicePitch" : 1.03
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 1,
+        "tempo" : 0.3,
+        "territory" : 0.15
+      },
+      "deckIndex" : 1,
+      "difficulty" : "normal",
+      "id" : "flametrooper",
+      "intro" : "The Wither's in these stones, in the cards, in you. I burn what's hexed. Sit. Let's find out how much of you needs cleansing.",
+      "name" : "Pyre-Sergeant Vell",
+      "onLose" : "The flame... gutters out. Then the rot takes me too. Burn me after.",
+      "onWin" : "Purified. One more ash pile the Wither can't touch. Clean work.",
+      "packID" : "pack-ashen-keep",
+      "persona" : "A zealous purifier tasked with burning the Wither out of the Keep; believes fire is the only clean thing left in Auveraine.",
+      "portraitSymbol" : "shield.fill",
+      "taunt" : "Fire finds everything. Even you.",
+      "tauntAhead" : "You're already smoke. You just haven't caught yet.",
+      "tauntBehind" : "Embers still bite. I'll relight and finish clean.",
+      "tintHex" : 5013424,
+      "title" : "Ash-Maker",
+      "voicePitch" : 1.09
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 0.8,
+        "tempo" : 0.6,
+        "territory" : 0.3
+      },
+      "deckIndex" : 2,
+      "difficulty" : "normal",
+      "id" : "crawler",
+      "intro" : "Fresh one, warm one, down in the dark with us... The Keep drinks blood, and I do the pouring. Play. Let it in.",
+      "name" : "Nettle",
+      "onLose" : "Unraveling... back to rot, back to nothing. It'll... find you... later.",
+      "onWin" : "Down into the dark with the others. The Wither says thank you.",
+      "packID" : "pack-ashen-keep",
+      "persona" : "A blight-warped wretch that skitters through the Keep's ducts and cellars; half-mad, whispering, more Wither than soldier.",
+      "portraitSymbol" : "shield.fill",
+      "taunt" : "Closer, closer. It wants you.",
+      "tauntAhead" : "The rot's in your deck now. Feel it spread?",
+      "tauntBehind" : "Hurts, yes, but crawlers heal wrong. We come back.",
+      "tintHex" : 5013424,
+      "title" : "the Wither-Touched",
+      "voicePitch" : 1.15
+    },
+    {
+      "bias" : {
+        "bankedScore" : 0.8,
+        "laneControl" : 1.2,
+        "tempo" : 0.2,
+        "territory" : 0.6
+      },
+      "deckIndex" : 3,
+      "difficulty" : "hard",
+      "id" : "great-malboro",
+      "intro" : "Come closer, little heir. Breathe deep the Hexfen air. Every card in my hand already reeks of the grave you'll share.",
+      "name" : "Malbrous the Fenmaw",
+      "onLose" : "Cut me down... my spores are already... in your lungs...",
+      "onWin" : "There now. Still. Sweet. You'll make such fragrant compost for the Wither.",
+      "packID" : "pack-hexfen",
+      "persona" : "A bloated, many-mawed horror that speaks in overlapping wet voices, delighting in decay and the sweet stink of ruined cards.",
+      "portraitSymbol" : "sparkles",
+      "taunt" : "Your deck festers. Can you not smell it curdling in your grip?",
+      "tauntAhead" : "Ripe, so ripe — I'll swallow your lead whole and belch out your defeat.",
+      "tauntBehind" : "Let me rot a while longer. Decay always wins the waiting game.",
+      "tintHex" : 11547530,
+      "title" : "Rot-Breather of the Sunken Court",
+      "voicePitch" : 0.85
+    },
+    {
+      "bias" : {
+        "bankedScore" : 0.7,
+        "laneControl" : 0.6,
+        "tempo" : 1,
+        "territory" : 0.1
+      },
+      "deckIndex" : 4,
+      "difficulty" : "hard",
+      "id" : "mindflayer",
+      "intro" : "I have already tasted the shape of your fear. Sit. Let me sample the rest, one thought at a time.",
+      "name" : "Vess'tharoth",
+      "onLose" : "Impossible — your mind was... noise... I could not read the... silence...",
+      "onWin" : "Delicious. I'll keep your final thought — it was the only interesting one.",
+      "packID" : "pack-hexfen",
+      "persona" : "A cold, cerebral parasite that savors minds like delicacies and narrates your own doubts back to you.",
+      "portraitSymbol" : "sparkles",
+      "taunt" : "Your next play — yes, that one. How dull your mind tastes.",
+      "tauntAhead" : "You lead, yet inside you already know how this ends. I can hear you knowing it.",
+      "tauntBehind" : "Every clever move you plan, I have eaten before you thought it.",
+      "tintHex" : 11547530,
+      "title" : "the Palate of Thought",
+      "voicePitch" : 0.91
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 1,
+        "tempo" : 0.3,
+        "territory" : 0.15
+      },
+      "deckIndex" : 0,
+      "difficulty" : "hard",
+      "id" : "scrutineye",
+      "intro" : "State your claim to the Bloodright. I will find the flaw. I always find the flaw.",
+      "name" : "the Assessor",
+      "onLose" : "Recount — this cannot — the ledger does not permit such a... result...",
+      "onWin" : "Assessment complete. Claim denied. The succession has no place for the worthy.",
+      "packID" : "pack-hexfen",
+      "persona" : "A floating, unblinking eye of the rigged succession, obsessed with judging, tallying, and finding every heir 'unfit.'",
+      "portraitSymbol" : "sparkles",
+      "taunt" : "Noted. Catalogued. Your error joins a very long ledger.",
+      "tauntAhead" : "A lead? A clerical accident. The audit is not finished with you.",
+      "tauntBehind" : "Every card you spend, I record against you. The verdict is nearly written.",
+      "tintHex" : 11547530,
+      "title" : "Warden of Blighted Ledgers",
+      "voicePitch" : 0.97
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 0.8,
+        "tempo" : 0.6,
+        "territory" : 0.3
+      },
+      "deckIndex" : 1,
+      "difficulty" : "hard",
+      "id" : "screamer",
+      "intro" : "HHHhhhear me — the fen has no silence left, and neither will YOU.",
+      "name" : "Hollowthroat",
+      "onLose" : "my voice — cracking — the dirge — going — quie—",
+      "onWin" : "Now you understand the note. Now you'll HUM it forever.",
+      "packID" : "pack-hexfen",
+      "persona" : "A ragged, keening spirit whose every utterance is a shriek that frays the nerves and warps the very air of the duel.",
+      "portraitSymbol" : "sparkles",
+      "taunt" : "SCREEEE — did that rattle your hand, little heir? Shall I do it again?",
+      "tauntAhead" : "You're winning? I'll scream until winning MEANS nothing.",
+      "tauntBehind" : "Behind? Good. Despair has the sharpest, sweetest pitch.",
+      "tintHex" : 11547530,
+      "title" : "the Dirge That Walks",
+      "voicePitch" : 1.03
+    },
+    {
+      "bias" : {
+        "bankedScore" : 0.8,
+        "laneControl" : 1.2,
+        "tempo" : 0.2,
+        "territory" : 0.6
+      },
+      "deckIndex" : 2,
+      "difficulty" : "hard",
+      "id" : "ignilisk",
+      "intro" : "Ssso. Fresh kindling wandersss into my fen. Sit — let me warm your ruin.",
+      "name" : "Cindrivax",
+      "onLose" : "my flame — drowning — the bog — swallowsss — its own... fire...",
+      "onWin" : "Ash. Ash and ssmoke. That's all a pretender's claim was ever worth.",
+      "packID" : "pack-hexfen",
+      "persona" : "A serpentine horror of hexed marsh-gas flame, hissing and mocking, burning cards to ash with a glance.",
+      "portraitSymbol" : "sparkles",
+      "taunt" : "Your cardsss curl so prettily when they burn. Play another.",
+      "tauntAhead" : "Ahead, are you? Ledsss burn brightest just before the ash.",
+      "tauntBehind" : "Sssmell that? That's your hope, smoldering. I've barely begun.",
+      "tintHex" : 11547530,
+      "title" : "the Bogfire Serpent",
+      "voicePitch" : 1.09
+    },
+    {
+      "bias" : {
+        "bankedScore" : 0.7,
+        "laneControl" : 0.6,
+        "tempo" : 1,
+        "territory" : 0.1
+      },
+      "deckIndex" : 3,
+      "difficulty" : "hard",
+      "id" : "crystalline-crab",
+      "intro" : "Skitter, skitter. Another soft thing to set in glass. Hold still — the crystal is patient.",
+      "name" : "Quartzmaw",
+      "onLose" : "my shell — fracturing — the hex-glass — will not — hold...",
+      "onWin" : "There. Perfectly preserved. You'll gleam in my reliquary for ages.",
+      "packID" : "pack-hexfen",
+      "persona" : "An armored crustacean grown over with corrupted crystal, slow and patient, entombing every card and heir in creeping stone.",
+      "portraitSymbol" : "sparkles",
+      "taunt" : "Click. Click. Your defenses crack like thin ice underfoot.",
+      "tauntAhead" : "Grow your lead. The bigger the prize, the finer the crystal I'll cage it in.",
+      "tauntBehind" : "Slow, yes. But stone always catches up. Feel it climbing your wrists?",
+      "tintHex" : 11547530,
+      "title" : "the Hexfen Reliquary",
+      "voicePitch" : 1.15
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 1,
+        "tempo" : 0.3,
+        "territory" : 0.15
+      },
+      "deckIndex" : 4,
+      "difficulty" : "hard",
+      "id" : "red-dragon",
+      "intro" : "So the throne sends me carrion in a coat of arms. Kneel or burn, pretender. The gate to Corvane is paved with braver ash than yours.",
+      "name" : "Vermilion Ossuar",
+      "onLose" : "Impossible. My fire... you fed it your own and burned brighter. Pass, then.",
+      "onWin" : "There. Another crown-chaser rendered into embers on the Court's cold gold.",
+      "packID" : "pack-obsidian-court",
+      "persona" : "A crimson wyrm bound in a warlord's harness, guarding the outer gates of the Obsidian Court; hot-blooded, brutal, contemptuous of soft petitioners.",
+      "portraitSymbol" : "flame.fill",
+      "taunt" : "Every card you lay smells of smoke already. Play faster, meat.",
+      "tauntAhead" : "You claw at my heels? Cute. I have not yet exhaled.",
+      "tauntBehind" : "A whelp with a lucky draw. The fire remembers your name now.",
+      "tintHex" : 12597803,
+      "title" : "the Ember-Marshal",
+      "voicePitch" : 0.85
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 0.8,
+        "tempo" : 0.6,
+        "territory" : 0.3
+      },
+      "deckIndex" : 0,
+      "difficulty" : "hard",
+      "id" : "archdragon",
+      "intro" : "I dueled kings before your bloodline learned to bleed. Show me you are worthy of the rite, or be forgotten with the rest.",
+      "name" : "Sathyrion the Elder",
+      "onLose" : "You have unwound an age of certainty. Go, then, and face what waits beyond me.",
+      "onWin" : "As it was ordained. The Bloodright does not err, and it did not choose you.",
+      "packID" : "pack-obsidian-court",
+      "persona" : "An ancient archdragon who remembers the first Bloodright; cold, patrician, treats the duel as sacred rite and the challenger as a vulgar upstart.",
+      "portraitSymbol" : "flame.fill",
+      "taunt" : "Centuries of play, and you offer me... this? How quaint.",
+      "tauntAhead" : "A momentary lead. History is measured in ages, not in turns.",
+      "tauntBehind" : "Curious. The upstart has teeth. I shall have to remember them.",
+      "tintHex" : 12597803,
+      "title" : "Keeper of the Ancient Bloodright",
+      "voicePitch" : 0.91
+    },
+    {
+      "bias" : {
+        "bankedScore" : 0.8,
+        "laneControl" : 1.2,
+        "tempo" : 0.2,
+        "territory" : 0.6
+      },
+      "deckIndex" : 1,
+      "difficulty" : "hard",
+      "id" : "obsidian-wyrm",
+      "intro" : "I am the walls, the floor, the black mirror of this Court. Look into me, claimant. See how small the throne makes you.",
+      "name" : "Nyxhalor",
+      "onLose" : "You broke your own doubt against me and did not cut. Rare. Pass into the dark.",
+      "onWin" : "Your reflection dims. The black glass keeps it now, with all the others.",
+      "packID" : "pack-obsidian-court",
+      "persona" : "A serpentine wyrm of living volcanic glass, part of the Court's very architecture; silent-menacing, speaks in cutting whispers, reflects the challenger's doubts.",
+      "portraitSymbol" : "flame.fill",
+      "taunt" : "Every crack in your strategy, I already wear as a facet.",
+      "tauntAhead" : "You advance across glass. Glass cuts the feet of the bold.",
+      "tauntBehind" : "Shatter me if you can. I only reflect what you fear to lose.",
+      "tintHex" : 12597803,
+      "title" : "the Black Glass Warden",
+      "voicePitch" : 0.97
+    },
+    {
+      "bias" : {
+        "bankedScore" : 0.7,
+        "laneControl" : 0.6,
+        "tempo" : 1,
+        "territory" : 0.1
+      },
+      "deckIndex" : 2,
+      "difficulty" : "hard",
+      "id" : "devil-rider",
+      "intro" : "Welcome, gentle claimant, to the Regent's hospitality. I will unhorse you with all the courtesy your death deserves.",
+      "name" : "Ser Malecaste",
+      "onLose" : "You kept your seat where princes fell. The First Lance salutes you. Ride on.",
+      "onWin" : "Unhorsed and unmade. I shall tell the Regent you died politely.",
+      "packID" : "pack-obsidian-court",
+      "persona" : "A fallen knight astride a hell-forged steed, sworn to Corvane; courtly-cruel, mockingly chivalrous, treats slaughter as etiquette.",
+      "portraitSymbol" : "flame.fill",
+      "taunt" : "A poor showing. My steed grows bored, and a bored devil bites.",
+      "tauntAhead" : "Yield gracefully. There is dignity in it, and none in what I do to the stubborn.",
+      "tauntBehind" : "Well ridden, claimant. Let us see if your seat holds under fire.",
+      "tintHex" : 12597803,
+      "title" : "First Lance of the Infernal Guard",
+      "voicePitch" : 1.03
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 1,
+        "tempo" : 0.3,
+        "territory" : 0.15
+      },
+      "deckIndex" : 3,
+      "difficulty" : "hard",
+      "id" : "hell-rider-ii",
+      "intro" : "One rider passed before me; more will follow. I am the second omen, and I ride ahead of your ruin. The throne is empty for a reason, claimant.",
+      "name" : "the Second Rider",
+      "onLose" : "You outran the omen. Then ride on, claimant, and learn why the throne stands empty.",
+      "onWin" : "The omen is fulfilled. You reached the empty throne only to fall before it.",
+      "packID" : "pack-obsidian-court",
+      "persona" : "A faceless second horseman of Corvane's guard, an omen more than a knight; ominous, prophetic, speaks of the empty throne and the coming reckoning.",
+      "portraitSymbol" : "flame.fill",
+      "taunt" : "Hear the hooves? That is the sound of your ending, drawing near.",
+      "tauntAhead" : "You outpace one rider. There are always more behind me.",
+      "tauntBehind" : "The herald does not fear the fleet. All roads still end at the throne.",
+      "tintHex" : 12597803,
+      "title" : "Herald of the Empty Throne",
+      "voicePitch" : 1.09
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 0.8,
+        "tempo" : 0.6,
+        "territory" : 0.3
+      },
+      "deckIndex" : 4,
+      "difficulty" : "hard",
+      "id" : "deathwheel",
+      "intro" : "No titles. No mercy. I am the last turning between you and the empty throne. Feed the wheel, claimant. It has never gone hungry.",
+      "name" : "the Deathwheel",
+      "onLose" : "The wheel... stops. None has stopped it. The throne room lies beyond. Go.",
+      "onWin" : "Broken and spent, fed to the turning. The Regent will not even look up.",
+      "packID" : "pack-obsidian-court",
+      "persona" : "A monstrous burning war-engine of fused riders and blades, the final guardian before the Regent; relentless, mechanical-merciless, an executioner without ego.",
+      "portraitSymbol" : "flame.fill",
+      "taunt" : "Turn by turn, I grind. Turn by turn, you dwindle.",
+      "tauntAhead" : "You push the wheel uphill. It only rolls back heavier.",
+      "tauntBehind" : "A faster spin will not save you. The wheel does not tire.",
+      "tintHex" : 12597803,
+      "title" : "Corvane's Last Warden",
+      "voicePitch" : 1.15
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 1,
+        "tempo" : 0.3,
+        "territory" : 0.15
+      },
+      "deckIndex" : 4,
+      "difficulty" : "hard",
+      "id" : "corvane",
+      "intro" : "Ah — my most promising protégé, come so far. I did hope it would be you. Sit. You've earned the truth, and then I'll take it back from you along with everything else.",
+      "name" : "Lord Regent Corvane",
+      "onLose" : "The birthmark... Seraphine's blood... I kept the throne empty for THIS? Then it was never mine to keep.",
+      "onWin" : "There. The Provident provides. The realm withers quietly, and I rule the ash.",
+      "packID" : "pack-obsidian-court",
+      "persona" : "The beloved caretaker of the empty throne and secret architect of the Wither — genial patron turned cold mastermind, who plays the long, rigged game.",
+      "portraitSymbol" : "crown.fill",
+      "taunt" : "I have arranged every duel you have ever played. Including this one.",
+      "tauntAhead" : "You were always a card in my hand, child. I am simply playing you now.",
+      "tauntBehind" : "No. No — the throne stays empty. That is the whole design. It MUST.",
+      "tintHex" : 3812956,
+      "title" : "the Provident",
+      "voicePitch" : 0.9
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 1,
+        "tempo" : 0.3,
+        "territory" : 0.15
+      },
+      "deckIndex" : 0,
+      "difficulty" : "hard",
+      "id" : "ifrit",
+      "intro" : "Mortal. You have wandered into the caldera where thrones melt. Only fire judges here. Lay your cards upon the coals.",
+      "name" : "Ifrit",
+      "onLose" : "Impossible... you STOKED me. Take my flame, ember-souled one.",
+      "onWin" : "You burned bright, mortal, but brief. I keep your cinders as a trinket.",
+      "packID" : "pack-wandering-legends",
+      "persona" : "A colossal fire-djinn of molten pride, contemptuous of mortals yet honoring only those who burn as fiercely as he does.",
+      "portraitSymbol" : "crown.fill",
+      "taunt" : "Every card you play is kindling. Shall I fan the flames?",
+      "tauntAhead" : "Feel that? The heat of a crown already cooling. You cannot outburn the sun.",
+      "tauntBehind" : "So the ember bites back. Good. A conquest without scorch is no conquest.",
+      "tintHex" : 13214247,
+      "title" : "the Cinder Sovereign",
+      "voicePitch" : 0.8
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 0.8,
+        "tempo" : 0.6,
+        "territory" : 0.3
+      },
+      "deckIndex" : 1,
+      "difficulty" : "hard",
+      "id" : "quetzalcoatl",
+      "intro" : "Little wingless one, you climbed so high to find me. Show me the shape of your soul, and I shall decide if you are wind or dust.",
+      "name" : "Quetzalcoatl",
+      "onLose" : "You danced upon the wind and did not fall. Then rise, dawn-touched.",
+      "onWin" : "You reached, and you fell. Return to me when you have grown your wings.",
+      "packID" : "pack-wandering-legends",
+      "persona" : "A serene, radiant sky-serpent of wind and morning light; ancient and gentle, testing worthiness rather than crushing it.",
+      "portraitSymbol" : "crown.fill",
+      "taunt" : "Every feather falls in its season. Is this the season of yours?",
+      "tauntAhead" : "You rise on borrowed wind, child. Beware the height from which you'll fall.",
+      "tauntBehind" : "Ah — you catch the current now. Perhaps you were meant for the sky.",
+      "tintHex" : 13214247,
+      "title" : "the Feathered Dawn",
+      "voicePitch" : 0.85
+    },
+    {
+      "bias" : {
+        "bankedScore" : 0.8,
+        "laneControl" : 1.2,
+        "tempo" : 0.2,
+        "territory" : 0.6
+      },
+      "deckIndex" : 2,
+      "difficulty" : "hard",
+      "id" : "zu",
+      "intro" : "MEAT. Crown-seeker — you enter Zu's sky uninvited. Here you are not a king. You are a MORSEL.",
+      "name" : "Zu",
+      "onLose" : "The wind turns against me. You are no morsel. You are STORM. Fly.",
+      "onWin" : "Weak. Soft. Devoured. The sky keeps what it kills, little crown.",
+      "packID" : "pack-wandering-legends",
+      "persona" : "A monstrous primordial thunderbird, wild and ravenous, driven by hunger and territorial fury; chaos given wings.",
+      "portraitSymbol" : "crown.fill",
+      "taunt" : "Peck. Peck. I take your cards one talon at a time.",
+      "tauntAhead" : "The sky is MINE. You are already carrion — you simply do not know it.",
+      "tauntBehind" : "GRAAH! You wound the storm?! Then Zu hungers all the more!",
+      "tintHex" : 13214247,
+      "title" : "the Storm That Steals the Sky",
+      "voicePitch" : 0.9
+    },
+    {
+      "bias" : {
+        "bankedScore" : 0.7,
+        "laneControl" : 0.6,
+        "tempo" : 1,
+        "territory" : 0.1
+      },
+      "deckIndex" : 3,
+      "difficulty" : "hard",
+      "id" : "tonberry-king",
+      "intro" : "...You are in a hurry. Most are. Sit. The lantern is lit. The knife is patient. I come closer with every card.",
+      "name" : "the Tonberry King",
+      "onLose" : "...Ah. You waited, as I wait. Few learn patience before the knife. Go.",
+      "onWin" : "You should not have hurried. Now the lantern goes out, and the knife finds the quiet.",
+      "packID" : "pack-wandering-legends",
+      "persona" : "A tiny, silent, inexorable creature bearing a lantern and a knife; patient beyond reason, quietly menacing.",
+      "portraitSymbol" : "crown.fill",
+      "taunt" : "Step. ...Closer.",
+      "tauntAhead" : "You gain ground. It does not matter. I am always one step nearer.",
+      "tauntBehind" : "...You run ahead. I do not run. I have never had to.",
+      "tintHex" : 13214247,
+      "title" : "He Who Walks Without Haste",
+      "voicePitch" : 0.95
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 1,
+        "tempo" : 0.3,
+        "territory" : 0.15
+      },
+      "deckIndex" : 4,
+      "difficulty" : "hard",
+      "id" : "emerald-witch",
+      "intro" : "Come closer, sweet pretender. The forest whispered a crown was coming, and I do love new roots for my garden.",
+      "name" : "the Emerald Witch",
+      "onLose" : "You uprooted me. Clever weed. The Verdant Reckoning yields.",
+      "onWin" : "There, there. You'll make lovely fertilizer, my dear. The garden thanks you.",
+      "packID" : "pack-wandering-legends",
+      "persona" : "An ageless enchantress grown into the deep wild, thorned and beautiful and cruel; nature's vengeance wearing a lovely mask.",
+      "portraitSymbol" : "crown.fill",
+      "taunt" : "Such tender shoots you plant. A shame how thoroughly I intend to prune them.",
+      "tauntAhead" : "Struggle, pretty thing. The vines only tighten the more you writhe.",
+      "tauntBehind" : "Oho — thorns of your own? How delicious. I had grown so bored of easy prey.",
+      "tintHex" : 13214247,
+      "title" : "Keeper of the Verdant Reckoning",
+      "voicePitch" : 1
+    },
+    {
+      "bias" : {
+        "bankedScore" : 1,
+        "laneControl" : 0.8,
+        "tempo" : 0.6,
+        "territory" : 0.3
+      },
+      "deckIndex" : 0,
+      "difficulty" : "hard",
+      "id" : "shadowblood-queen",
+      "intro" : "So. The Bloodright has run its course, and its last victor descends to me. I am the first queen, and the last. Show me you deserve the throne I built beneath the throne.",
+      "name" : "the Shadowblood Queen",
+      "onLose" : "After a thousand thousand years, the shadow is at last outshone. Rise, true sovereign.",
+      "onWin" : "As it has always ended. The empire returns to its source, and you to dust.",
+      "packID" : "pack-wandering-legends",
+      "persona" : "The first and true sovereign of Auveraine, undying beneath the empire she founded; regal, glacial, absolute — the Bloodright's origin.",
+      "portraitSymbol" : "crown.fill",
+      "taunt" : "Every card you hold, I dealt into the world an age before your birth.",
+      "tauntAhead" : "You lead? For a breath. I have watched a thousand crowns lead — then kneel.",
+      "tauntBehind" : "Interesting. It has been an eternity since I felt the cold of a worthy hand.",
+      "tintHex" : 13214247,
+      "title" : "the Throne Beneath the Throne",
+      "voicePitch" : 1.05
     }
   ],
   "packs" : [
@@ -203,6 +1573,12 @@
       "id" : "pack-rustmarch",
       "name" : "The Rustmarch",
       "opponentIDs" : [
+        "grasslands-wolf",
+        "cactuar",
+        "mu",
+        "levrikon",
+        "elphadunk",
+        "mandragora",
         "rusty"
       ],
       "provinceID" : "province-rustmarch",
@@ -218,6 +1594,12 @@
       "id" : "pack-gilded-delta",
       "name" : "The Gilded Delta",
       "opponentIDs" : [
+        "flan",
+        "queen-bee",
+        "toxirat",
+        "zemzelett",
+        "capparwire",
+        "fleetwing",
         "mireille"
       ],
       "provinceID" : "province-gilded-delta",
@@ -233,6 +1615,12 @@
       "id" : "pack-ashen-keep",
       "name" : "The Ashen Keep",
       "opponentIDs" : [
+        "ogre",
+        "grenadier",
+        "riot-trooper",
+        "security-officer",
+        "flametrooper",
+        "crawler",
         "aldous"
       ],
       "provinceID" : "province-ashen-keep",
@@ -248,6 +1636,12 @@
       "id" : "pack-hexfen",
       "name" : "The Hexfen",
       "opponentIDs" : [
+        "great-malboro",
+        "mindflayer",
+        "scrutineye",
+        "screamer",
+        "ignilisk",
+        "crystalline-crab",
         "vesper"
       ],
       "provinceID" : "province-hexfen",
@@ -263,7 +1657,14 @@
       "id" : "pack-obsidian-court",
       "name" : "The Obsidian Court",
       "opponentIDs" : [
-        "koll"
+        "red-dragon",
+        "archdragon",
+        "obsidian-wyrm",
+        "devil-rider",
+        "hell-rider-ii",
+        "deathwheel",
+        "koll",
+        "corvane"
       ],
       "provinceID" : "province-obsidian-court",
       "signatureCardIDs" : [
@@ -278,7 +1679,12 @@
       "id" : "pack-wandering-legends",
       "name" : "Wandering Legends",
       "opponentIDs" : [
-
+        "ifrit",
+        "quetzalcoatl",
+        "zu",
+        "tonberry-king",
+        "emerald-witch",
+        "shadowblood-queen"
       ],
       "provinceID" : "province-wandering-legends",
       "rarity" : "legendary",
