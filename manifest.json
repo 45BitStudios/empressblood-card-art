@@ -1,5 +1,13 @@
 {
-  "contentVersion": 4,
-  "cards": { "count": 154 },
-  "packs": ["cards-thumbs", "cards-full"]
+  "contentVersion": 5,
+  "cards": {
+    "count": 154
+  },
+  "packs": [
+    "cards-thumbs",
+    "cards-full"
+  ],
+  "portraits": {
+    "count": 129
+  }
 }
