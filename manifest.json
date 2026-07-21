@@ -1,5 +1,5 @@
 {
-  "contentVersion": 5,
+  "contentVersion": 6,
   "cards": {
     "count": 154
   },
@@ -8,6 +8,6 @@
     "cards-full"
   ],
   "portraits": {
-    "count": 129
+    "count": 201
   }
 }
